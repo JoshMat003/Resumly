@@ -35,7 +35,7 @@ SUPPORTED_GROQ_MODELS = [
     "llama-4-scout-17b"        # Newest efficiency model
 ]
 
-def call_groq(prompt: str, model: str = "llama-3.3-70b-versatile") -> str:
+def call_groq(prompt: str, model: str = "llama-3.1-8b-instant") -> str:
     api_key = resolve_groq_key()
     if not api_key:
         raise ValueError("no_key")
