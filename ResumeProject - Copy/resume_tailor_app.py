@@ -399,7 +399,7 @@ defaults = {
     "first_name": "",
     "last_name": "",
     "full_name": "",
-    "model": "llama-3.1-8b-instant", # Change default model
+    "model": "groq/compound-mini", # Change default model
     "groq_api_key": "",                 # New key storage
 }
 for k, v in defaults.items():
