@@ -449,8 +449,8 @@ with st.sidebar:
     st.markdown('<hr>', unsafe_allow_html=True)
     st.markdown('<div class="sidebar-section-label">About</div>', unsafe_allow_html=True)
     st.markdown(
-        '<span style="font-size:0.78rem; color:#3a3f5c">Powered by Claude API. '
-        'Keywords extracted per posting. ATS scoring uses keyword frequency model.</span>',
+        '<span style="font-size:0.78rem; color:#3a3f5c"> Powered by: J.O.S.H. AI. '
+        'JOSH AI can make mistakes. Please use with caution.</span>',
         unsafe_allow_html=True,
     )
 
